@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+	width: 100%;
+}
+
+/* form styling */
+#wrapper {
+	width: 60%;
+	margin: auto;
+}
+
+div#formcol1, div#multchoice, p.submit-button {
+	margin: 20px 20px;
+}
+
+label {
+	margin-right: .3em;
+	width: 5.5em;
+	display: inline-block;
+}
+
+#formcol1 li {
+	list-style-type: none;
+	padding: 5px;
+}
+
+#formcol1 input.reqfield {
+	background: #FF9;
+}
+
+legend {
+	font-size: 25px;
+}
+
+.submit-button input {
+	font-size: 20px;
+} 
+.submit-button input:hover {
+	cursor: pointer;
+}
+
+/* end of form css */
+	
